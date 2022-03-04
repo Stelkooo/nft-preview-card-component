@@ -8,7 +8,32 @@
     --dark-blue-line: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
 }
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Outfit', sans-serif;
     background-color: var(--dark-blue-main);
+}
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Component */
+.component {
+    width: 327px;
+    height: 543px;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--dark-blue-card);
+    border-radius: 15px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, .01);
+}
+.nft {
+    width: 100%;
+    border-radius: 8px;
 }
