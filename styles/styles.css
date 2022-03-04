@@ -37,3 +37,12 @@ main {
     width: 100%;
     border-radius: 8px;
 }
+.name {
+    color: var(--white);
+    font-weight: 600;
+}
+.description {
+    color: var(--soft-blue);
+    font-size: 18px;
+    font-weight: 300;
+}
