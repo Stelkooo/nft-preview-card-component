@@ -68,3 +68,22 @@ main {
 .time-left p {
     color: var(--soft-blue);
 }
+/* Creator Section */
+.creator {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+}
+.creator-img {
+    width: 33px;
+    height: 33px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+.creator-name {
+    margin-left: 1em;
+    color: var(--white);
+}
+.creator-name span {
+    color: var(--soft-blue);
+}
