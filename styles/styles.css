@@ -46,3 +46,25 @@ main {
     font-size: 18px;
     font-weight: 300;
 }
+/* Price + Time Section */
+.price-and-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.price,
+.time-left {
+    display: flex;
+}
+.price p,
+.time-left p {
+    margin: 0 0 0 .4em;
+    font-size: 15px;
+    font-weight: 400;
+}
+.price p {
+    color: var(--cyan);
+}
+.time-left p {
+    color: var(--soft-blue);
+}
