@@ -16,15 +16,14 @@ body {
     background-color: var(--dark-blue-main);
 }
 main {
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 /* Component */
 .component {
-    width: 327px;
-    height: 543px;
+    max-width: 327px;
     padding: 1.5em;
     display: flex;
     flex-direction: column;
