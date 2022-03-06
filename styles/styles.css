@@ -48,9 +48,11 @@ main {
 }
 /* Price + Time Section */
 .price-and-time {
+    padding-bottom: 1em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom: 1px solid var(--dark-blue-line);
 }
 .price,
 .time-left {
@@ -58,9 +60,9 @@ main {
 }
 .price p,
 .time-left p {
-    margin: 0 0 0 .4em;
     font-size: 15px;
     font-weight: 400;
+    margin: 0 0 0 .3em;
 }
 .price p {
     color: var(--cyan);
@@ -68,9 +70,17 @@ main {
 .time-left p {
     color: var(--soft-blue);
 }
+.price img {
+    width: 11px;
+    height: 18px;
+}
+.time-left img {
+    width: 16px;
+    height: 16px;
+}
 /* Creator Section */
 .creator {
-    margin-top: 2em;
+    padding-top: 1em;
     display: flex;
     align-items: center;
 }
