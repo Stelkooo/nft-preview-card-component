@@ -15,6 +15,9 @@ body {
     font-family: 'Outfit', sans-serif;
     background-color: var(--dark-blue-main);
 }
+a {
+    text-decoration: none;
+}
 main {
     height: 100vh;
     display: flex;
@@ -32,7 +35,7 @@ main {
     border-radius: 15px;
     box-shadow: 0 25px 50px rgba(0, 0, 0, .01);
 }
-.nft {
+.nft img {
     width: 100%;
     border-radius: 8px;
 }
@@ -91,8 +94,10 @@ main {
 }
 .creator-name {
     margin-left: 1em;
-    color: var(--white);
 }
 .creator-name span {
     color: var(--soft-blue);
+}
+.creator-name a {
+    color: var(--white);
 }
